@@ -1,8 +1,8 @@
 const Login = () => {
   return (
-    <div>
-        <div  className="flex justify-end m-10" >
-                <butron className=' pr-5 pl-5 pt-2 pb-2  rounded-lg bg-[#5072f5] border-2 '>Signup</butron>
+    <div >
+        <div  className="flex justify-end w-full m-10" >
+                <button className=' pr-5 pl-5 pt-2 pb-2  rounded-lg bg-[#5072f5] border-2 '>Signup</button>
         </div>
 
         <div className="flex justify-around relative">
@@ -66,9 +66,19 @@ const Login = () => {
                       <div className=" flex justify-between items-center" >
                             <p>Login With</p>
                             <div className="flex gap-6">
+                              <button>
+
                               <img src="/facebookLogo.png" alt="fcebookLogo"   className="w-[42px] h-[42px]"/>
-                              <img src="/GoogleLogo.png" alt="GoogleLogo" className="w-[42px] h-[42px]"/>
+                              </button>
+                              <button>
+
+                              <img src="/GoogleLogo.png" alt="GoogleLogo" className="w-[42px] h-[42px]"/> 
+                              </button>
+
+                              <button>
+
                               <img src="/linkedinLogo.png" alt="LinkedinLogo" className="w-[42px] h-[42px]"/>
+                              </button>
                             </div>
 
                       </div>
