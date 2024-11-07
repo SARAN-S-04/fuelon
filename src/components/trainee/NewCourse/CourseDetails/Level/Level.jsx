@@ -2,7 +2,9 @@ import React from 'react'
 
 const Level = () => {
   return (
-    <div>Level</div>
+    <div>
+        <h1>Levels</h1>
+    </div>
   )
 }
 
