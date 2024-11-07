@@ -11,7 +11,7 @@ const Trainee = () => {
     <div>
     <Routes>
         <Route path='/login' element={<Login/>}/>
-        <Route path='/trainne/mycourses' element={<MyCourses/>}/>
+        <Route path='/trainne/mycourses' element={<MyCourses/>}/> 
         <Route path="/trainee/newcourse" element={<NewCourse/>}>
               <Route path='course_1' element={<CoursDetails/>}/>
               <Route path='course_1/modules' element={<Modules/>}/>
